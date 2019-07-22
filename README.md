@@ -11,8 +11,14 @@ to create blank module on magento 2 you need files :
 
 There are two ways to install this module
 
-first :
-copy and paste this code into `app/code/Chipulaja/BlankModule`
+### first
 
-second:
-`composer requires chipulaja\magento2-blank-module`
+copy and paste this code into `app/code/Chipulaja/BlankModule`
+`php bin/magento module:enable Chipulaja_Magento_BlankModule`
+
+### second
+
+```bash
+composer requires chipulaja\magento2-blank-module
+php bin/magento module:enable Chipulaja_Magento_BlankModule
+```

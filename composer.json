@@ -1,5 +1,5 @@
 {
-    "name": "chipul/magento/blank-module",
+    "name": "chipulaja/magento2-blank-module",
     "description": "N/A",
     "config": {
         "sort-packages": true
@@ -14,7 +14,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Chipul\\Magento\\BlankModule\\": ""
+            "Chipulaja\\Magento\\BlankModule\\": ""
         }
     },
     "version": "0.0.1"
